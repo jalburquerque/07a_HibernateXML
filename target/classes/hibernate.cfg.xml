@@ -5,9 +5,9 @@
  <session-factory >
   <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
   <property name="hibernate.connection.password">12345678</property>
-  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/demo?autoReconnect=true&amp;useSSL=false&amp;disableLocalTxn=true</property>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/mysql?autoReconnect=true&amp;useSSL=false&amp;disableLocalTxn=true</property>
   <property name="hibernate.connection.username">root</property>
-  <property name="hibernate.default_schema">demo</property>
+  <property name="hibernate.default_schema">mysql</property>
   <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
   <property name="hibernate.dialect.storage_engine">innodb</property>
   <property name="hibernate.show_sql">true</property>
