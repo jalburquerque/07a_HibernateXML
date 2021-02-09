@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.openwebinars.hibernate.hibernatexml.AppTest" time="0.002" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="sun.boot.class.path" value="C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre\bin\compressedrefs\jclSC180\vm.jar;C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre\lib\se-service.jar;C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre\lib\rt.jar;C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre\lib\resources.jar;C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre\lib\jsse.jar;C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre\lib\charsets.jar;C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre\lib\jce.jar"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.8.0_282-b08"/>
+    <property name="user.name" value="MAALLOJU"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="es"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre\bin\compressedrefs;C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre\bin"/>
+    <property name="sun.boot.library.path" value="C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre\bin\compressedrefs;C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre\bin"/>
+    <property name="classworlds.conf" value="C:\Users\maalloju\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1850508512614381591.tmp"/>
+    <property name="jdk.extensions.version" value="8.0.282.0"/>
+    <property name="java.version" value="1.8.0_282"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="com.ibm.system.agent.path" value="C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre\bin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.zero.version" value="2"/>
+    <property name="java.endorsed.dirs" value="C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre\lib\endorsed"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="ES"/>
+    <property name="java.home" value="C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre"/>
+    <property name="java.vm.info" value="JRE 1.8.0 Windows 8.1 amd64-64-Bit Compressed References 20210120_972 (JIT enabled, AOT enabled)
+OpenJ9   - 345e1b09e
+OMR      - 741e94ea8
+JCL      - ab07c6a8fd based on jdk8u282-b08"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="openj9-0.24.0"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="C:\Users\maalloju"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="java.library.path" value="C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre\bin\compressedrefs;C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre\bin;C:\windows\system32;C:\windows;C:/Users/maalloju/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin/server;C:/Users/maalloju/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\maalloju\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\maalloju\AppData\Local\Microsoft\WindowsApps;C:\Users\maalloju\AppData\Local\Programs\Git\cmd;C:\Users\maalloju\AppData\Local\Programs\Microsoft VS Code\bin;D:\Apps\maven\apache-maven-3.6.3\bin;C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\bin;C:\Users\maalloju\chocolatey\bin;;C:\windows\System32;;."/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.fullversion" value="1.8.0_282-b08
+JRE 1.8.0 Windows 8.1 amd64-64-Bit Compressed References 20210120_972 (JIT enabled, AOT enabled)
+OpenJ9   - 345e1b09e
+OMR      - 741e94ea8
+JCL      - ab07c6a8fd based on jdk8u282-b08"/>
+    <property name="maven.home" value="D:\Formacion\openwebinars\Curso_hibernate_ejemplos\07a_HibernateXML\EMBEDDED"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.class.path" value="C:\Users\maalloju\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="C:\Users\maalloju\AppData\Local\Temp\"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Formacion\openwebinars\Curso_hibernate_ejemplos\07a_HibernateXML"/>
+    <property name="ibm.system.encoding" value="Cp1252"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="java.ext.dirs" value="C:\Users\maalloju\.jdks\adopt-openj9-1.8.0_282\jre\lib\ext"/>
+    <property name="user.dir" value="D:\Formacion\openwebinars\Curso_hibernate_ejemplos\07a_HibernateXML"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.specification.version" value="1.8"/>
+  </properties>
+  <testcase classname="com.openwebinars.hibernate.hibernatexml.AppTest" name="testApp" time="0.002"/>
+</testsuite>
